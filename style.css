@@ -89,6 +89,12 @@ h1 {
   font-weight: 500;
   font-size: 15px;
 }
+.bottom-image {
+  position: absolute;
+  top: 153%;
+  width: 98%;
+  right: 0;
+}
 /* .testimony-card:nth-child(2) {
   padding: 10px;
 } */
@@ -138,5 +144,24 @@ h1 {
     font-size: 41px;
     line-height: 1;
     margin: 0%;
+  }
+  .testimony-card-container {
+    display: flex;
+    padding: 0 128px;
+    margin-top: 30px;
+  }
+  .testimony-card {
+    margin-right: 10px;
+  }
+  .testimony-para {
+    font-size: 11px;
+  }
+  .bottom-image {
+    position: absolute;
+    top: 0px;
+    height: 20xp;
+    /* left: 0; */
+    right: 0;
+    width: 78%;
   }
 }
